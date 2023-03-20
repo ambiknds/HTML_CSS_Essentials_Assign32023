@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.nav-bar{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.nav-item{
+  background-color: lightcoral;
+  list-style-type: none;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
