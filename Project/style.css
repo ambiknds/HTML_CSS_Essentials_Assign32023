@@ -101,8 +101,58 @@ header{
   margin: 0 auto;
 }
 .edu-box{
-  margin: 20px auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
   width: 80%;
   height: 500px;
   background-color: #fff;
+}
+.edu-box-details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+  width: 90%;
+  border-bottom: 0.1rem solid black;
+}
+.institute-details{
+  width: 20%;
+}
+.certificate-detail{
+  width: 80%;
+  margin-left: 2rem;
+}
+/* Project section */
+.project-section{
+  text-align: center;
+}
+.project-para{
+  width: 30rem;
+  opacity: 0.5;
+  margin: 0 auto;
+}
+/* Cards container */
+.cards-container{
+  padding: 50px;
+  align-items: center;
+  margin: 2rem auto;
+  width: 80%;
+  height: 300px;
+  background-color: #fff;
+}
+.cards{
+  display: flex;
+  justify-content: start;
+  overflow: scroll;
+  width: 100%;
+}
+.card{
+  width: 250px;
+  height: 250px;
+  background-color: lemonchiffon;
+  margin: 0 20px;
+  flex-shrink: 0;
 }
